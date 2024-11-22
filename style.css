@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #f8f9fa;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  background: url("assets/b.jpg") no-repeat center center/cover;
+}
+
+/* Sections */
+section {
+  background-color: black;
+  padding: 48px 0;
+}
+
+/* Typography */
+h1,
+h2 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+p {
+  font-size: 1.2rem;
+  margin: 0 auto;
+  max-width: 800px; /* Limit width for better readability */
+}
+
+#about p {
+  margin-bottom: 1rem; /* Adjust spacing as needed */
+  color: white;
+}
+
+/* Class for red text */
+.red-text {
+  color: red;
+}
+
+/* Yellow Button Style */
+.btn-yellow {
+  background-color: #ffc107; /* Bootstrap warning yellow */
+  color: #212529; /* Dark text for better contrast */
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.25rem; /* Rounded corners */
+  transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+.btn-yellow:hover {
+  background-color: #e0a800; /* Slightly darker yellow on hover */
+  color: #ffffff; /* White text on hover */
+}
+
+/* Phone Image */
+.phone-container {
+  display: flex;
+  justify-content: center;
+}
+.phone-image {
+  width: 150px; /* Adjust the size as needed */
+  height: auto;
+}
+
+/* Dots Container */
+.dots-container {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem; /* Space between dots */
+  margin-top: 1rem;
+}
+
+/* Dots */
+.dot {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #333; /* Border color */
+  border-radius: 50%;
+  background-color: transparent; /* Hollow dots */
+}
+
+/* Filled Dot */
+.dot.filled {
+  background-color: #333; /* Fill color */
+}
+
+.text-wolor_white {
+  color: white;
+}
+
+/* Contact Form Styles */
+.contact-form {
+  margin-top: 20px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  margin-bottom: 200px;
+}
+
+.contact-form .form-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: darkgrey;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form .btn-submit {
+  padding: 10px 20px;
+  background-color: yellow;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form .btn-submit:hover {
+  background-color: rgb(165, 165, 47);
+}
+
+.font-size-large {
+    font-size: 18px;
+}
