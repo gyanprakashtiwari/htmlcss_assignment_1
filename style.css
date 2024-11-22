@@ -9,6 +9,9 @@ body {
 header {
   background-color: #f8f9fa;
 }
+body {
+  background-color: #10141c; /* Dark bluish color */
+}
 
 /* Hero Section */
 .hero-section {
@@ -18,8 +21,8 @@ header {
 
 /* Sections */
 section {
-  background-color: black;
   padding: 48px 0;
+  background-color: transparent; /* Ensure sections inherit the body's background */
 }
 
 /* Typography */
@@ -147,5 +150,5 @@ p {
 }
 
 .font-size-large {
-    font-size: 18px;
+  font-size: 18px;
 }
